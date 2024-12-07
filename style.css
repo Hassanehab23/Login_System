@@ -1,0 +1,60 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --bg-color:#24353f;
+    --text-color:#FFFFFF;
+    --main-styled:#17A2B8;
+}
+body{
+    background: var(--bg-color);
+    font-family: 'Titillium Web', sans-serif;
+}
+.form-control,
+.form-control:focus{
+    background-color: transparent;
+    color: var(--text-color);
+    box-shadow: none;
+}
+.group {
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+a{
+    text-decoration: none;
+}
+input,
+textarea {
+    background-color: transparent !important;
+    color: #fff !important;
+}
+input::placeholder,
+textarea::placeholder {
+    color: rgb(182, 182, 182) !important;
+}
+span{
+    color: #DC3545;
+}
+h1{
+    color: var(--main-styled);
+}
+.btn{
+    color: var(--main-styled);
+}
+.btn:hover,
+.btn:focus{
+    color: var(--text-color);
+}
+.sign-up,
+.sign-up a{
+    color: var(--text-color);
+    text-decoration: none;
+}
+.sign-up a:hover{
+    text-decoration: underline;
+}
+.btn:focus
+{
+    color: #fff;
+}
